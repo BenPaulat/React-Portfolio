@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Nav from './components/Navigation';
-import Page from './Page';
+import Page from './components/Page';
 
 function App() {
   const [pages] = useState([
