@@ -4,18 +4,21 @@ function Nav(props) {
     const { 
         pages = [],
         setCurrentPage,
-        currentPage } = props
+        currentPage 
+    } = props;
 
     return (
+        <div>
         <nav>
-            <ul>
-                {pages.map((Page) => (
-                    <li className={`${currentPage.name === Page.name}`} key={Page.name}>
-                       <span onClick={() => setCurrentPage(Page)}>{Page.name}</span> 
+            <ul className='flex-row'>
+                {pages.map((page) => (
+                    <li className= {`mx-2 ${currentPage.name === page.name}`} key={page.name}>
+                       <span onClick={() => {console.log(page); setCurrentPage(page.name);}}>{page.name}</span> 
                     </li>
                 ))}
             </ul>
         </nav>
+        </div>
     );
 }
 

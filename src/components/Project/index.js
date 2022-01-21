@@ -2,7 +2,10 @@ import React from 'react';
 
 function Project() {
     return (
-        <section>Project Test</section>
+        <section>
+            <h2>Project Test</h2>
+            
+        </section>
     );
 }
 
