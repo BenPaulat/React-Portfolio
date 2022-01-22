@@ -1,7 +1,7 @@
 import React from "react";
 import AboutMe from "../About"
 import ContactMe from "../Contact";
-import Project from "../Project";
+import Projects from "../Projects";
 import Resume from "../Resume";
 import PageContent from "../PageContent";
 
@@ -12,8 +12,8 @@ function Page({ currentPage }) {
                 return <AboutMe />
             case "Contact Me":
                 return <ContactMe />
-            case "Project":
-                return <Project />
+            case "Projects":
+                return <Projects />
             case "Resume":
                 return <Resume />
             default:
