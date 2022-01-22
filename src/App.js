@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
 import Footer from './components/Footer';
 import Nav from './components/Navigation';
 import Page from './components/Page';
@@ -24,7 +23,6 @@ function App() {
 
   return (
     <div className="App">
-      <Header></Header>
       <Nav 
         pages={pages}
         setCurrentPage={setCurrentPage}
