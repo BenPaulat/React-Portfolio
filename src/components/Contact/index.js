@@ -1,25 +1,24 @@
 import React from 'react';
+import { Button, Container, Form } from 'react-bootstrap'
 
 function ContactMe() {
     return (
-        <section>
-            <h1>Contact Me</h1>
-            <form id="contact-form">
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" />
-                </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" />
-                </div>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
+        <Container fluid="lg">
+            <Form>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Label>Email address</Form.Label>
+                    <Form.Control type="email" placeholder="Enter email" />
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                    <Form.Label>Leave me a message:</Form.Label>
+                    <Form.Control placeholder="Enter messege..." as="textarea" rows={3} />
+                </Form.Group>
+                <Button variant="primary" type="submit">
+                    Submit
+                </Button>
+            </Form>
+        </Container>
     );
 }
 

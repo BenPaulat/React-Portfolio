@@ -1,26 +1,29 @@
 import React from 'react';
+import { Col, Container, Navbar, Row } from 'react-bootstrap';
 
 function Nav(props) {
-    const { 
+    const {
         pages = [],
         setCurrentPage,
-        currentPage 
+        currentPage
     } = props;
 
     return (
         <header>
-            <h1 className='flex-row'>
-                Benjamin Paulat
-            </h1>
-            <nav>
-                <ul className='flex-row'>
-                    {pages.map((page) => (
-                        <li className= {`mx-2 ${currentPage.name === page.name}`} key={page.name}>
-                        <span onClick={() => {console.log(page); setCurrentPage(page);}}>{page.name}</span> 
-                        </li>
-                    ))}
-                </ul>
-            </nav>
+            <Navbar>
+                <Container>
+                    <Navbar.Brand bsPrefix="nav-header" >
+                        Benjamin Paulat
+                    </Navbar.Brand>
+                    <Row className='justify-content-md-center'>
+                        {pages.map((page) => (
+                            <Col className={`cursor-p lg=3 ${currentPage.name === page.name}`} key={page.name}>
+                                <span onClick={() => { console.log(page); setCurrentPage(page); }}>{page.name}</span>
+                            </Col>
+                        ))}
+                    </Row>
+                </Container>
+            </Navbar>
         </header>
     );
 }
