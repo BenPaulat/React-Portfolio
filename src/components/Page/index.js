@@ -5,7 +5,7 @@ import Project from "../Project";
 import Resume from "../Resume";
 import PageContent from "../PageContent";
 
-function Page(currentPage) {
+function Page({ currentPage }) {
     const renderPage = () => {
         switch (currentPage.name) {
             case "About Me":
