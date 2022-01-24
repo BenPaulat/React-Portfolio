@@ -40,7 +40,7 @@ function Projects() {
         <div>
             <Container>
                 <Row>
-                    {projectList.map((project, i) => {
+                    {projectList.map((project) => (
                         <Card style={{ width: '18rem' }}>
                             <Card.Img 
                                 variant="top" 
@@ -49,17 +49,17 @@ function Projects() {
                                 key={project.name}
                             />
                             <Card.Body>
-                                <Card.Title>{project.name}</Card.Title>
+                                <Card.Title key={project.name} >{project.name}</Card.Title>
                                 <Card.Text>{project.description}</Card.Text>
                             </Card.Body>
                             <ListGroup className='list-group-flush'>
                                 <ListGroupItem>
-                                    <Card.Link href={project.github}>Github</Card.Link>
+                                    <Card.Link key={project.name} href={project.github}>Github</Card.Link>
                                     <Card.Link href={project.deployment}>Live Deployment</Card.Link>
                                 </ListGroupItem>
                             </ListGroup>
                         </Card>
-                    })}
+                    ))}
                 </Row>
             </Container>
         </div>
