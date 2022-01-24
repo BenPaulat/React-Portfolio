@@ -2,7 +2,8 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer>Footer Test</footer>
+        <footer>Made with ☕ and ❤ by Benjamin Paulat</footer>
+        
     );
 }
 
