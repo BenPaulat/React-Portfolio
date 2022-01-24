@@ -21,8 +21,8 @@ function Page({ currentPage }) {
         }
     }
     return (
-        <div>
-            <h2>{currentPage.name}</h2>
+        <div className="container pb-5">
+            <h2 className="py-3">{currentPage.name}</h2>
             <PageContent>{renderPage()}</PageContent>
         </div>
     )

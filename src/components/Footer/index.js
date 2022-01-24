@@ -1,12 +1,13 @@
 import React from 'react';
-import { Stack } from 'react-bootstrap';
 
 function Footer() {
     return (
-        <footer className="fixed-bottom">
-            <Stack direction="horizontal" gap={3}>
+        <footer className="fixed-bottom page-footer font-small py-2">
+            <div className='footer-container'>
                 <div>
-                    <a className='fab fa-github' href='https://github.com/BenPaulat/'></a>
+                    <a className='btn-floating btn-fb mx-1' href='https://github.com/BenPaulat/'>
+                        <i className="fab fa-github"> </i>
+                    </a>
                 </div>
                 <div>
                     <a className='fab fa-linkedin' href='https://linkedin.com/in/benjamin-paulat-77165a123'></a>
@@ -14,7 +15,7 @@ function Footer() {
                 <div>
                     Made with ☕ and ❤ by Benjamin Paulat
                 </div>
-            </Stack>
+            </div>
         </footer>
         
     );
