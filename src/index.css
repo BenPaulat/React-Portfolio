@@ -27,6 +27,10 @@ header {
   background-position-y: center;
 }
 
+footer {
+  background-color: var(--dark);
+}
+
 body {
   margin: 0;
   padding: 0; 
