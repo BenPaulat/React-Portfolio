@@ -20,8 +20,8 @@
   ## Screenshot(s)
   ![alt text](./src/assets/images/PortfolioScreenshot.PNG)
 
-  ## Video Walkthrough
-  N/A
+  ## Deployed Application
+  [GithubPages](https://benpaulat.github.io/React-Portfolio/)
 
   ## Contributions
   [BenPaulat](https://github.com/BenPaulat)
