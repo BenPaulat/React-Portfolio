@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.1a03c762.css",
+    "main.js": "/react-portfolio/static/js/main.fbcc4d80.js",
+    "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
+    "static/media/CityBG.jpg": "/react-portfolio/static/media/CityBG.4c7e422855d9b59f43fe.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.1a03c762.css.map": "/react-portfolio/static/css/main.1a03c762.css.map",
+    "main.fbcc4d80.js.map": "/react-portfolio/static/js/main.fbcc4d80.js.map",
+    "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a03c762.css",
+    "static/js/main.fbcc4d80.js"
+  ]
+}
