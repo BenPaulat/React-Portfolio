@@ -23,6 +23,27 @@ function Projects() {
             deployment:'https://ahmed-sajjad111.github.io/Munchies-and-Movies/',
             description:'A fun, stylized, web-application for searching movies and restaurants.',
             image:'M&MScreenshot.png'
+        },
+        {
+            name:'Employee Database',
+            github:'https://github.com/BenPaulat/Employee-Database',
+            deployment:'_blank',
+            description:'A command line program to manage a small employee database.',
+            image:'EmployeeDBScreenshot.png'
+        },
+        {
+            name:'Budget Tracker',
+            github:'https://github.com/BenPaulat/budget-tracker',
+            deployment:'https://pacific-shore-79406.herokuapp.com/',
+            description:'A simple budget tracking app that works on the go!',
+            image:'BudgetTracker.png'
+        },
+        {
+            name:'Workday Scheduler',
+            github:'https://github.com/BenPaulat/day-planner',
+            deployment:'https://benpaulat.github.io/day-planner/',
+            description:'A simple calender app for scheduling your work day.',
+            image:'WorkdayScheduler.png'
         }
     ])
 
@@ -41,12 +62,11 @@ function Projects() {
             <Container>
                 <Row>
                     {projectList.map((project) => (
-                        <Card style={{ width: '18rem' }}>
+                        <Card key={project.name} style={{ width: '18rem' }}>
                             <Card.Img 
                                 variant="top" 
-                                src={`../../src/assets/${project.image}`}
+                                src={`/react-portfolio/static/media/${project.image}`}
                                 alt={project.name}
-                                key={project.name}
                             />
                             <Card.Body>
                                 <Card.Title>{project.name}</Card.Title>
@@ -54,7 +74,7 @@ function Projects() {
                             </Card.Body>
                             <ListGroup className='list-group-flush'>
                                 <ListGroupItem>
-                                    <Card.Link key={project.name} href={project.github}>Github</Card.Link>
+                                    <Card.Link href={project.github}>Github</Card.Link>
                                     <Card.Link href={project.deployment}>Live Deployment</Card.Link>
                                 </ListGroupItem>
                             </ListGroup>
