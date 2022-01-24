@@ -1,16 +1,22 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.54200020.css",
-    "main.js": "/React-Portfolio/static/js/main.53e32919.js",
+    "main.js": "/React-Portfolio/static/js/main.d0c1172c.js",
     "static/js/787.8c081f57.chunk.js": "/React-Portfolio/static/js/787.8c081f57.chunk.js",
     "static/media/CityBG.jpg": "/React-Portfolio/static/media/CityBG.4c7e422855d9b59f43fe.jpg",
+    "static/media/CalculatorScreenshot.PNG": "/React-Portfolio/static/media/CalculatorScreenshot.3ba64a8ed039c3cc5afb.PNG",
+    "static/media/M&MScrenshot.PNG": "/React-Portfolio/static/media/M&MScrenshot.7186da0cc985baae5aa1.PNG",
+    "static/media/WorkdayScheduler.PNG": "/React-Portfolio/static/media/WorkdayScheduler.8edda4582bf318925e0f.PNG",
+    "static/media/BudgetTracker.PNG": "/React-Portfolio/static/media/BudgetTracker.cc43653390373abdb097.PNG",
+    "static/media/TennantScreenshot.PNG": "/React-Portfolio/static/media/TennantScreenshot.32a2300e25452183d32f.PNG",
+    "static/media/EmployeeDBScreenshot.png": "/React-Portfolio/static/media/EmployeeDBScreenshot.7879201189f6473bd2bd.png",
     "index.html": "/React-Portfolio/index.html",
     "main.54200020.css.map": "/React-Portfolio/static/css/main.54200020.css.map",
-    "main.53e32919.js.map": "/React-Portfolio/static/js/main.53e32919.js.map",
+    "main.d0c1172c.js.map": "/React-Portfolio/static/js/main.d0c1172c.js.map",
     "787.8c081f57.chunk.js.map": "/React-Portfolio/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54200020.css",
-    "static/js/main.53e32919.js"
+    "static/js/main.d0c1172c.js"
   ]
 }
