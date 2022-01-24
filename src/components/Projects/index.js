@@ -33,14 +33,14 @@ function Projects() {
         github:'',
         deployment:'',
         description:'',
-        image:'../src/assets/'
+        image:''
     }
     */
     return (
         <div>
             <Container>
                 <Row>
-                    {projectList.map((project) => {
+                    {projectList.map((project, i) => {
                         <Card style={{ width: '18rem' }}>
                             <Card.Img 
                                 variant="top" 
