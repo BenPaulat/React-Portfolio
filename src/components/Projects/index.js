@@ -49,7 +49,7 @@ function Projects() {
                                 key={project.name}
                             />
                             <Card.Body>
-                                <Card.Title key={project.name} >{project.name}</Card.Title>
+                                <Card.Title>{project.name}</Card.Title>
                                 <Card.Text>{project.description}</Card.Text>
                             </Card.Body>
                             <ListGroup className='list-group-flush'>
