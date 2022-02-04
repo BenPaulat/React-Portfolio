@@ -44,6 +44,13 @@ function Projects() {
             deployment: 'https://benpaulat.github.io/day-planner/',
             description: 'A simple calender app for scheduling your work day.',
             image: 'WorkdayScheduler.PNG'
+        },
+        {
+            name:'Mantis Mocha',
+            github:'https://github.com/Ahmed-Sajjad111/mantis-mocha',
+            deployment:'https://mantismocha.herokuapp.com/',
+            description:'A shopping app with login functionality, themed around coffee.',
+            image:'MantisMocha.PNG'
         }
     ])
 
